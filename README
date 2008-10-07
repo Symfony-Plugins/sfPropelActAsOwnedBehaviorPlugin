@@ -9,7 +9,7 @@ If you enable this behavior for one of your model class, permissions will be man
   * Install the plugin
   
     {{{
-      symfony plugin-install http://plugins.symfony-project.com/sfPropelParanoidBehaviorPlugin
+      svn checkout http://svn.symfony-project.com/plugins/sfPropelActAsOwnedBehaviorPlugin/trunk/
     }}}
 
   * Enable Propel behavior support in `propel.ini`:
